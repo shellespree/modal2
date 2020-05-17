@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <!-- Bootsrtap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Forms.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <button type="button" class="btn btn-primary btn-lg btn-block">FORMS</button>
+        </div>    
+    </div>
+    <div class="container">
+        <h1>Intro</h1>
+        <form class="">
+            <div class="form-row">
+              <div class="col-md-6">
+                <label for="name">First name*</label>
+                <input type="text" class="form-control" id="First-name" placeholder="Jane">
+              </div>
+              <div class="col-md-6">
+                <label for="name">Last name*</label>
+                <input type="text" class="form-control" id="Last-name" placeholder="Doe">
+                <div class="float-right">
+                    <a href="#"><span>Add former name</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-12">
+                <label for="Textarea">Headline*</label>
+                <textarea class="form-control" id="textarea" rows="3"></textarea>
+              </div>
+              <div class="col-md-12">
+                <label for="position">Current Position</label>
+                <select class="custom-select" id="current-position">
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div class="float-right">
+                    <a href="#"><span>Add new position</span></a>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck">
+                    <label class="custom-control-label" for="customCheck">Show education in my intro</label>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="Education">Education</label>
+                <input type="text" class="form-control" id="education" placeholder="Institutions">
+                <div class="float-right">
+                    <a href="#"><span>Add new education</span></a>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <label for="Locations1">Country/Region*</label>
+                <input type="text" class="form-control" id="Locations1">
+              </div>
+              <div class="col-md-12">
+                <label for="Locations2">Locations in this Country/Region</label>
+                <input type="text" class="form-control" id="Locations2">
+              </div>
+              <div class="col-md-12">
+                <label for="Industry">Industry*</label>
+                <input type="text" class="form-control" id="Industry">
+              </div>
+              <div>
+                  <p>Contact info</p>
+                  <span>
+
+                  </span>
+              </div> 
+
+            </div>
+        </form>
+    </div>
+    <div class="container">
+      <h1>Experience</h1>
+      <form action="">
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <label for="name">Title*</label>
+            <input type="text" class="form-control" id="name">
+          </div>
+          <div class="form-group col-md-12">
+            <label for="employment">Employment type</label>
+            <input type="text" class="form-control" id="employent-type">
+          </div>
+          <div class="form-group col-md-12">
+            <label for="company">Company*</label>
+            <input type="text" class="form-control" id="company">
+          </div>
+          <div class="form-group col-md-12">
+            <label for="location">Location</label>
+            <input type="text" class="form-control" id="location">
+            <div>
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="customCheck">
+                <label class="custom-control-label" for="customCheck">I am currently working in this role</label>
+              </div>
+            </div>
+          </div>
+         <div class="form-row">
+            <div class="col-md-5">
+              <label for="date1">Start Date*</label>
+              <input type="month" class="form-control" id="start-date">
+            </div>
+            <div class="col-md-5">
+              <label for="date2"></label>
+              <input type="month" class="form-control" id="end-date">                  
+            </div>
+            <div class="col-md-2">
+                <label for="end date">End date*</label>
+                <br>present
+            </div>
+          </div>
+          </div>
+    </div>
+    <div class="container">
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck">
+        <label class="custom-control-label" for="customCheck">Update my industry</label>
+        <br>
+        <input type="checkbox" class="custom-control-input" id="customCheck">
+        <label class="custom-control-label" for="customCheck">Update my headline</label>
+      </div>
+    </div>
+    <div class="container">
+        <label for="Textarea">Description</label>
+        <textarea class="form-control" id="textarea" rows="3"></textarea>
+    </div>
+    <div class="container">
+      <p>Media</p>
+      Add or link to external documents, photos, sites, videos, and presentations.
+      <div class="form-row">
+        <div class="col-lg-6">
+          <button type="button" class="btn btn-primary btn-lg btn-block">Upload</button>
+        </div>
+        <div class="col-lg-6">
+          <button type="button" class="btn btn-outline-primary btn-lg btn-block">Link</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Education</h1>
+      <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="name">School*</label>
+          <input type="text" class="form-control" id="school">
+        </div>
+        <div class="form-group col-md-12">
+          <label for="employment">Degree</label>
+          <input type="text" class="form-control" id="degree">
+        </div>
+        <div class="form-group col-md-12">
+          <label for="study">Field of study</label>
+          <input type="text" class="form-control" id="study">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6">
+          <label for="date">Start Year</label>
+          <input type="date" class="form-control" id="start-year">
+        </div>
+        <div class="col-md-6">
+          <label for="date">End Year (or expected)</label>
+          <input type="date" class="form-control" id="start-year">
+        </div>
+        <div class="form-group col-md-12">
+          <label for="grade">Grade</label>
+          <input type="text" class="form-control" id="grade">
+        </div>
+      </div>
+      <div>
+        <label for="Textarea">Activities and societies</label>
+        <textarea class="form-control" id="textarea" rows="5"></textarea>
+        Ex: Alpha Phi Omega, Marching Band, Volleyball
+      </div>
+      <div>
+        <label for="Textarea">Description</label>
+        <textarea class="form-control" id="textarea" rows="5"></textarea>
+      </div>
+      <p>Media</p>
+      Add or link to external documents, photos, sites, videos, and presentations.
+      <div class="form-row">
+        <div class="col-lg-6">
+          <button type="button" class="btn btn-primary btn-lg btn-block">Upload</button>
+        </div>
+        <div class="col-lg-6">
+          <button type="button" class="btn btn-outline-primary btn-lg btn-block">Link</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1>Skills</h1>
+      <h3>Reorder Skills & Endorsements</h3>
+      <p>Reorder your skills within a category or choose up to 3 skills to feature in your top skills.</p>
+      <div class="skills">
+        <h5>Top Skills</h5>
+      </div>
+      <div class="skills">
+        <h5>Interpersonal Skills</h5>
+      </div>
+      <div class="skills">
+        <h5>Other Skills</h5>
+      </div>
+      
+    </div>
+    
+   
+        
+      </form>
+    </div>
+    
+    
+
+    
+<!-- Bootstrap jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
